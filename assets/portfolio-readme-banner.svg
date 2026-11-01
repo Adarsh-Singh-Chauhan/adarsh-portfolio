@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Adarsh Singh Chauhan — Software, AI and Cybersecurity Portfolio</title>
+  <desc id="desc">Animated cyberpunk developer banner with neon cyan, violet and pink accents, an engineering console and project-focused tagline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050816"/>
+      <stop offset=".55" stop-color="#10102a"/>
+      <stop offset="1" stop-color="#071b2c"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset=".52" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#fb7185"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6fbff"/>
+      <stop offset=".5" stop-color="#67e8f9"/>
+      <stop offset="1" stop-color="#e9d5ff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#7dd3fc" stroke-opacity=".1" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft"><feGaussianBlur stdDeviation="36"/></filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="24" fill="url(#grid)"/>
+  <circle cx="1050" cy="78" r="150" fill="#7c3aed" opacity=".15" filter="url(#soft)"/>
+  <circle cx="770" cy="330" r="180" fill="#06b6d4" opacity=".1" filter="url(#soft)"/>
+
+  <g opacity=".8" fill="none" stroke="url(#neon)" stroke-width="2">
+    <path d="M0 74H72L96 50H230" />
+    <path d="M1200 286H1115L1090 311H960"/>
+    <path d="M28 330V298L55 271H95"/>
+    <path d="M1170 30V60L1148 82H1110"/>
+  </g>
+  <g fill="#22d3ee" filter="url(#glow)">
+    <circle cx="230" cy="50" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="960" cy="311" r="4"><animate attributeName="opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <g transform="translate(54 44)">
+    <rect width="58" height="58" rx="15" fill="#0b1830" stroke="url(#neon)" stroke-width="2"/>
+    <text x="29" y="37" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="800" fill="#e0faff">ASC</text>
+    <text x="77" y="20" fill="#67e8f9" font-family="monospace" font-size="12" letter-spacing="2">ASC / DEV SYSTEM</text>
+    <text x="77" y="43" fill="#9fb5d1" font-family="monospace" font-size="11" letter-spacing="2">BUILD  ·  CODE  ·  TEST  ·  DEPLOY</text>
+  </g>
+
+  <g transform="translate(56 150)">
+    <text x="0" y="0" font-family="Arial,sans-serif" font-size="58" font-weight="900" letter-spacing="-1.5" fill="url(#titleGrad)">ADARSH SINGH</text>
+    <text x="0" y="66" font-family="Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="-1.5" fill="#f0abfc">CHAUHAN</text>
+    <path d="M0 84H590" stroke="url(#neon)" stroke-width="3" filter="url(#glow)">
+      <animate attributeName="stroke-dasharray" values="0 590;590 0;0 590" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <text x="2" y="116" font-family="Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.1" fill="#f8fafc">SOFTWARE DEVELOPMENT ENGINEER  |  SOFTWARE ENGINEER</text>
+    <text x="2" y="150" font-family="monospace" font-size="13" letter-spacing="1.2" fill="#a5b4fc">FULL-STACK  /  AI &amp; ML  /  CYBERSECURITY  /  VIBE CODING</text>
+  </g>
+
+  <g transform="translate(742 75)">
+    <rect width="390" height="218" rx="18" fill="#07101f" stroke="url(#neon)" stroke-width="2"/>
+    <rect x="16" y="16" width="358" height="34" rx="9" fill="#17243a"/>
+    <circle cx="34" cy="33" r="5" fill="#fb7185"/>
+    <circle cx="52" cy="33" r="5" fill="#fbbf24"/>
+    <circle cx="70" cy="33" r="5" fill="#4ade80"/>
+    <text x="94" y="37" fill="#b7c8df" font-family="monospace" font-size="12">adarsh@dev-console:~</text>
+
+    <g font-family="monospace" font-size="18" font-weight="700" fill="#67e8f9">
+      <text x="34" y="88">&gt; build();</text>
+      <text x="34" y="122">&gt; test();</text>
+      <text x="34" y="156">&gt; deploy();</text>
+      <text x="34" y="190">&gt; repeat();</text>
+    </g>
+    <text x="350" y="190" text-anchor="end" font-family="monospace" font-size="11" font-weight="700" fill="#4ade80">✓ READY TO SHIP</text>
+    <rect x="31" y="72" width="3" height="18" fill="#22d3ee">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <g transform="translate(56 322)" font-family="monospace" font-size="10" fill="#8fa7c4" letter-spacing="1">
+    <text x="0" y="0">ENGINEERING WITH CURIOSITY</text>
+    <text x="1088" y="0" text-anchor="end">PORTFOLIO / 2026</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="358" rx="24" fill="none" stroke="url(#neon)" stroke-opacity=".65" stroke-width="2"/>
+</svg>
