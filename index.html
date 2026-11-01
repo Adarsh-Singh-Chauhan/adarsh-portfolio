@@ -3,7 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Adarsh Singh — Portfolio</title>
+<title>Adarsh Singh — Full-Stack Developer | AI/ML & Cybersecurity</title>
+<meta name="description" content="Adarsh Singh's interactive portfolio — full-stack development, AI/ML, cybersecurity, blockchain and IoT projects. Explore skills, selected work and contact details.">
+<meta name="theme-color" content="#040408">
+<meta property="og:title" content="Adarsh Singh — Developer Portfolio">
+<meta property="og:description" content="Building real-world software across full-stack engineering, AI/ML, cybersecurity and emerging technologies.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/">
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <style>
@@ -184,6 +190,43 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
   .contact-wrap{padding:2.5rem 1.5rem;}
   .int-card{flex-direction:column;gap:1rem;}
 }
+
+/* NAVIGATION & ACCESSIBILITY POLISH */
+.nav-toggle{
+  display:none;align-items:center;justify-content:center;flex-direction:column;gap:5px;
+  width:42px;height:42px;border:1px solid var(--border);border-radius:9px;
+  background:rgba(255,255,255,.035);cursor:pointer;transition:border-color .2s,background .2s;
+}
+.nav-toggle:hover,.nav-toggle:focus-visible{border-color:var(--c1);background:rgba(0,229,255,.08);outline:none;}
+.nav-toggle span{display:block;width:18px;height:2px;border-radius:4px;background:var(--c1);transition:transform .2s,opacity .2s;}
+.nav-toggle[aria-expanded="true"] span:first-child{transform:translateY(7px) rotate(45deg);}
+.nav-toggle[aria-expanded="true"] span:nth-child(2){opacity:0;}
+.nav-toggle[aria-expanded="true"] span:last-child{transform:translateY(-7px) rotate(-45deg);}
+.nl a:focus-visible,.btn:focus-visible,.c-btn:focus-visible{outline:2px solid var(--c1);outline-offset:4px;}
+@media(max-width:900px){
+  nav{padding:1rem 5vw;}
+  .nav-toggle{display:flex;}
+  nav .nl{
+    display:none;position:absolute;top:calc(100% + 1px);left:4vw;right:4vw;
+    flex-direction:column;align-items:stretch;gap:0;padding:.55rem;
+    background:rgba(7,8,18,.97);border:1px solid var(--border);border-radius:12px;
+    box-shadow:0 22px 50px rgba(0,0,0,.55);backdrop-filter:blur(20px);
+  }
+  nav .nl.open{display:flex;}
+  nav .nl a{padding:.95rem 1rem;border-bottom:1px solid rgba(255,255,255,.045);}
+  nav .nl a:last-child{border-bottom:0;}
+  nav .nl .cta{text-align:center;margin:.55rem .3rem .2rem;}
+}
+@media(hover:none),(pointer:coarse){
+  body,.btn{cursor:auto;}
+  #cur,#cur-r{display:none!important;}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;}
+  #bg{display:none;}
+}
+
 </style>
 </head>
 <body>
@@ -194,7 +237,10 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
 
 <nav>
   <div class="logo"><em>&lt;</em>adarsh<em>/&gt;</em></div>
-  <div class="nl">
+  <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="portfolio-nav">
+    <span></span><span></span><span></span>
+  </button>
+  <div class="nl" id="portfolio-nav">
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
@@ -212,7 +258,7 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
     <h1 class="h1">Adarsh<br><span class="grad">Singh.</span></h1>
     <p class="sub"><strong>Full-Stack Developer · AI/ML Engineer · Cybersecurity Researcher</strong><br>
     Building production-grade AI systems, decentralized apps, and IoT solutions that solve real problems.</p>
-    <div class="cgpa-pill">⭐ CGPA: 8.3 / 10 · RGPV University</div>
+    <div class="cgpa-pill">B.Tech CSE (Cyber Security) · SIRT Bhopal · RGPV University</div>
     <div class="btns">
       <a href="#projects" class="btn btn-p">View Projects ↓</a>
       <a href="https://github.com/Adarsh-Singh-Chauhan" target="_blank" class="btn btn-o">GitHub →</a>
@@ -235,7 +281,7 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
     <div class="rv">
       <div class="sec-num">// 01</div>
       <h2 class="sec-h">Who I<br><span>Actually Am</span></h2>
-      <p class="about-p">I'm a <strong>B.Tech CSE (Cyber Security) student at SIRT Bhopal (RGPV)</strong> with an 8.3 CGPA — independently building production-grade AI systems, full-stack applications, and cybersecurity tools from scratch.</p>
+      <p class="about-p">I'm a <strong>B.Tech CSE (Cyber Security) student at SIRT Bhopal (RGPV)</strong>, independently building practical AI systems, full-stack applications, and cybersecurity tools.</p>
       <p class="about-p">My projects range from <strong>real-time AI threat-detection platforms</strong> using mBERT and XLM-RoBERTa, to <strong>blockchain educational rewards apps</strong> in Solidity, to <strong>IoT systems that won 1st place</strong> at science competitions.</p>
       <p class="about-p">I bring a rare combination of <strong>deep technical depth</strong> across ML, full-stack, cybersecurity, and hardware — paired with the discipline and perseverance to ship complex systems independently.</p>
     </div>
@@ -244,7 +290,7 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
         <div class="ic">
           <div class="ic-l">Currently</div>
           <div class="ic-v">B.Tech CSE · Cyber Security</div>
-          <div class="ic-s">SIRT Bhopal · RGPV University · 2023–2027 · CGPA 8.3</div>
+          <div class="ic-s">SIRT Bhopal · RGPV University · 2023–2027</div>
         </div>
         <div class="ic">
           <div class="ic-l">Schooling</div>
@@ -254,12 +300,12 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
         <div class="ic">
           <div class="ic-l">Location</div>
           <div class="ic-v">Bhopal, Madhya Pradesh 🇮🇳</div>
-          <div class="ic-s">DOB: 05 Oct 2005 · Open to remote & on-site</div>
+          <div class="ic-s">Open to remote & on-site opportunities</div>
         </div>
         <div class="ic">
           <div class="ic-l">Roles I'm targeting</div>
           <div class="ic-v">SDE Intern · ML Engineer · Cybersecurity Analyst</div>
-          <div class="ic-s">5 internships · 6 certifications · 1 award · 7 projects</div>
+          <div class="ic-s">6 featured projects · 6 listed credentials · 3 achievements</div>
         </div>
       </div>
     </div>
@@ -481,14 +527,17 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
 
 <footer>
   <span><em>&lt;</em>adarsh-singh<em>/&gt;</em> · SIRT Bhopal · RGPV · 2027</span>
-  <span>CGPA 8.3 · github.com/Adarsh-Singh-Chauhan</span>
+  <span>B.Tech CSE · SIRT Bhopal · github.com/Adarsh-Singh-Chauhan</span>
 </footer>
 
 <script>
 /* THREE.JS PARTICLE FIELD */
 (function(){
   const canvas=document.getElementById('bg');
-  const renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true});
+  if(!window.THREE){canvas.style.display='none';return;}
+  let renderer;
+  try{renderer=new THREE.WebGLRenderer({canvas,alpha:true,antialias:true});}
+  catch(error){canvas.style.display='none';console.warn('WebGL background unavailable:',error);return;}
   renderer.setPixelRatio(Math.min(devicePixelRatio,2));
   renderer.setSize(innerWidth,innerHeight);
   const scene=new THREE.Scene();
@@ -527,6 +576,8 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
   document.addEventListener('mousemove',e=>{mx=(e.clientX/innerWidth-.5)*.8;my=(e.clientY/innerHeight-.5)*.5;});
 
   const clk=new THREE.Clock();
+  const reduceMotion=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduceMotion){renderer.render(scene,cam);return;}
   function tick(){
     requestAnimationFrame(tick);
     const t=clk.getElapsedTime();
@@ -600,7 +651,7 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
 (function(){
   const badge=document.querySelector('.badge');
   if(!badge)return;
-  const texts=['B.Tech CSE (Cyber Security) · SIRT Bhopal','Full-Stack & ML Engineer · Python · React','CGPA 8.3 · 7 Projects · 5 Internships'];
+  const texts=['B.Tech CSE (Cyber Security) · SIRT Bhopal','Full-Stack & ML Engineer · Python · React','AI/ML · Full-Stack · Cybersecurity'];
   let ti=0,ci=0,del=false;
   const span=document.createElement('span');
   badge.innerHTML='<span class="dot"></span>';
@@ -617,6 +668,29 @@ footer{border-top:1px solid var(--border);padding:1.8rem 5vw;display:flex;justif
     setTimeout(type,del?35:55);
   }
   setTimeout(type,1500);
+})();
+
+/* ACCESSIBLE MOBILE NAVIGATION */
+(function(){
+  const toggle=document.querySelector('.nav-toggle');
+  const menu=document.querySelector('#portfolio-nav');
+  if(!toggle||!menu)return;
+  const close=()=>{
+    menu.classList.remove('open');
+    toggle.setAttribute('aria-expanded','false');
+    toggle.setAttribute('aria-label','Open navigation menu');
+  };
+  toggle.addEventListener('click',()=>{
+    const open=!menu.classList.contains('open');
+    menu.classList.toggle('open',open);
+    toggle.setAttribute('aria-expanded',String(open));
+    toggle.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');
+  });
+  menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',close));
+  document.addEventListener('keydown',event=>{if(event.key==='Escape')close();});
+  document.addEventListener('click',event=>{
+    if(!menu.contains(event.target)&&!toggle.contains(event.target))close();
+  });
 })();
 </script>
 </body>
