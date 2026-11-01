@@ -1,141 +1,74 @@
 <p align="center">
-  <a href="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/">
-    <img src="assets/portfolio-readme-banner.svg" width="100%" alt="Adarsh Singh Chauhan — Software Development Engineer portfolio banner"/>
-  </a>
+  <img src="./assets/adarsh-portfolio-banner.svg" width="100%" alt="Adarsh Singh — animated developer portfolio banner"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=850&color=22D3EE&center=true&vCenter=true&width=900&height=48&lines=FULL-STACK+DEVELOPMENT+%7C+AI%2FML;CYBERSECURITY+%7C+BLOCKCHAIN+%7C+IoT;BUILD+%E2%80%A2+CODE+%E2%80%A2+TEST+%E2%80%A2+DEPLOY;TURNING+IDEAS+INTO+WORKING+SOFTWARE" alt="Animated portfolio specialties"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=2600&pause=850&color=19E5FF&center=true&vCenter=true&width=920&height=45&lines=FULL-STACK+DEVELOPER;AI%2FML+%26+CYBERSECURITY+ENGINEER;BUILDING+REAL-WORLD+SOFTWARE;DESIGN.+DEVELOP.+VALIDATE.+DEPLOY." alt="Animated developer roles"/>
 </p>
 
 <p align="center">
-  <a href="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/"><img src="https://img.shields.io/badge/EXPLORE-PORTFOLIO-22D3EE?style=for-the-badge&logo=googlechrome&logoColor=07111f" alt="Explore portfolio"/></a>
+  <a href="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/"><img src="https://img.shields.io/badge/LIVE%20PORTFOLIO-OPEN%20WEBSITE-00D9F5?style=for-the-badge&logo=googlechrome&logoColor=041018" alt="Live portfolio"/></a>
+  <a href="https://github.com/Adarsh-Singh-Chauhan"><img src="https://img.shields.io/badge/GITHUB-FOLLOW-171923?style=for-the-badge&logo=github&logoColor=white" alt="GitHub profile"/></a>
   <a href="https://www.linkedin.com/in/adarsh-singh-5189b9283/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://github.com/Adarsh-Singh-Chauhan"><img src="https://img.shields.io/badge/GITHUB-REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub repositories"/></a>
-  <a href="mailto:adarshsinghchauhan28@gmail.com"><img src="https://img.shields.io/badge/EMAIL-SAY_HELLO-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Adarsh"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-4ADE80?style=for-the-badge" alt="MIT License"/></a>
 </p>
 
+<h2 align="center">⚡ A PORTFOLIO BUILT LIKE A DIGITAL EXPERIENCE</h2>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_OPPORTUNITIES-16A34A?style=flat-square" alt="Open to opportunities"/>
-  <img src="https://img.shields.io/badge/DEPLOYMENT-GITHUB_PAGES-222222?style=flat-square&logo=githubpages" alt="GitHub Pages"/>
-  <img src="https://img.shields.io/badge/BUILT_WITH-HTML5_%7C_CSS3_%7C_JS-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML CSS JavaScript"/>
-  <img src="https://img.shields.io/badge/3D-THREE.JS-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js"/>
-  <img src="https://img.shields.io/badge/LICENSE-MIT-64748B?style=flat-square" alt="MIT License"/>
+  An interactive, dark-theme developer portfolio showcasing software projects, technical skills, credentials and achievements — with animated visuals and a responsive layout.
 </p>
 
 ---
 
-## ◈ The project
+## 👨‍💻 About
 
-A personal developer portfolio designed as a cinematic, dark-mode engineering experience. It brings together my profile, technical interests, selected builds, credentials and contact links in one responsive single-page website.
+I'm **Adarsh Singh**, a B.Tech Computer Science & Engineering student (Cyber Security) at **SIRT Bhopal, RGPV**.
 
-**Live portfolio:** [adarsh-singh-chauhan.github.io/adarsh-portfolio](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/)
+I enjoy building practical software across full-stack development, AI/ML, cybersecurity, blockchain and IoT. This portfolio brings together selected work, technical interests and ways to connect.
 
-### Interface highlights
+**Current focus:** Full-stack engineering · AI/ML applications · Cybersecurity · Software development
 
-| Experience | What you'll find |
+## ✨ Experience & interface features
+
+| Feature | What it does |
 |---|---|
-| **Interactive hero** | Animated introduction, gradient typography, typing text and quick links |
-| **3D background** | Three.js-powered canvas scene with pointer-responsive movement |
-| **About & profile** | Education, focus areas, location and opportunity interests |
-| **Technical skills** | Categorized engineering skills with animated skill bars |
-| **Featured builds** | Six project groups spanning AI, full-stack, ML, blockchain, IoT and real-time apps |
-| **Credentials** | Certifications, hackathon participation and achievements |
-| **Motion & interaction** | Scroll-reveal sections, custom cursor, hover states and smooth navigation |
+| 🌌 Three.js particle environment | Animated 3D particle field with subtle camera movement |
+| 🎨 Dynamic visual system | Dark interface with cyan–violet–pink gradient accents |
+| ⌨️ Animated hero | Intro transitions, gradient typography and typing-style role text |
+| 🧭 Smooth navigation | Fixed glass-style navigation with section anchors |
+| 👀 Scroll reveal | Content cards animate into view as you explore |
+| 📊 Skill indicators | Skill bars animate when their section enters the viewport |
+| 🧩 Project cards | Hover interactions, project summaries and technology chips |
+| 📱 Responsive layout | Adapts to desktop, tablet and mobile screens |
+| ♿ Motion-aware UI | Respects the device's reduced-motion preference |
 
-## 👨‍💻 About me
-
-I'm **Adarsh Singh Chauhan**, a Computer Science & Engineering student specializing in Cyber Security at **SIRT, Bhopal (RGPV)**.
-
-I enjoy building practical software across full-stack development, AI/ML and cybersecurity. I like taking an idea from a problem statement to a working product—designing the interface, building the application logic, integrating models or APIs, and validating the result.
-
-- **Education:** B.Tech CSE — Cyber Security
-- **Institute:** SIRT, Bhopal · RGPV University
-- **Academic score:** 8.3 / 10 CGPA
-- **Expected graduation:** 2027
-- **Based in:** Bhopal, Madhya Pradesh, India
-- **Current interests:** Software engineering, full-stack products, AI applications, security and automation
-
-## 🧰 Technology map
+## 🧰 Tech stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111827" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111" alt="JavaScript"/>
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" alt="Three.js"/>
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS"/>
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=111827" alt="Firebase"/>
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="Scikit-learn"/>
-  <img src="https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white" alt="Solidity"/>
+  <img src="https://img.shields.io/badge/Google_Fonts-4285F4?style=for-the-badge&logo=googlefonts&logoColor=white" alt="Google Fonts"/>
+  <img src="https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white" alt="GitHub Pages"/>
 </p>
 
-| Area | Tools & concepts |
-|---|---|
-| **Languages** | Python, JavaScript, TypeScript, Solidity |
-| **Frontend** | HTML, CSS, React.js, Vite, Tailwind CSS |
-| **Backend & APIs** | Node.js, Express.js, REST APIs, JWT authentication, Socket.io |
-| **AI / ML / NLP** | Scikit-learn, XGBoost, mBERT, XLM-RoBERTa, Hugging Face, CNN, RNN, feature engineering |
-| **Data & storage** | MongoDB, Firebase Firestore, PostgreSQL, MySQL |
-| **Cybersecurity** | Network security, threat-detection workflows, misinformation and coordinated-account analysis |
-| **Blockchain / Web3** | Solidity, Ethereum, smart contracts, Django |
-| **IoT / hardware** | Arduino, Raspberry Pi, ESP8266, DHT11, Blynk, ThingSpeak |
+**Typography:** Syne · Inter · JetBrains Mono  
+**3D / motion:** Three.js · CSS keyframes · Intersection Observer
 
 ## 🚀 Featured projects
 
-The following projects are showcased in the portfolio website. Open the live site for the full presentation and project details.
+The website currently showcases these six project areas. Use the live portfolio to explore their full descriptions and technology details.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 · DRISHTI</h3>
-      <strong>AI-assisted campaign & misinformation detection</strong>
-      <p>A multilingual detection platform focused on propaganda, hate speech and misinformation targeting India.</p>
-      <sub>mBERT · XLM-RoBERTa · React · Node.js · Firebase · Gemini · NetworkX</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · Supermarket Billing AI POS</h3>
-      <strong>Full-stack point-of-sale & inventory intelligence</strong>
-      <p>A billing and inventory application concept with barcode workflows, GST invoices, demand forecasting and analytics.</p>
-      <sub>TypeScript · React · Node.js · Express · MongoDB · Machine Learning</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 · LearnToEarn</h3>
-      <strong>Blockchain-powered learning rewards</strong>
-      <p>An educational rewards platform using Ethereum smart contracts and a Django backend.</p>
-      <sub>Solidity · Ethereum · Django · PostgreSQL · Python · Web3</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 · Disease Prediction ML</h3>
-      <strong>Healthcare risk prediction experiments</strong>
-      <p>End-to-end disease and heart-disease prediction workflows with model comparison and evaluation.</p>
-      <sub>Python · Scikit-learn · XGBoost · Pandas · NumPy · Jupyter</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>05 · IoT Smart Dustbin & Plant Monitor</h3>
-      <strong>Connected hardware prototypes</strong>
-      <p>Sensor-driven waste-level monitoring and plant-health monitoring with cloud-connected data and alerts.</p>
-      <sub>Arduino · Raspberry Pi · ESP8266 · DHT11 · Firebase · Blynk · ThingSpeak</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>06 · Vakyam & Retired Mentor</h3>
-      <strong>Real-time communication & mentorship platforms</strong>
-      <p>A WebRTC video-conferencing application and a mentorship platform with authentication, chat and meeting workflows.</p>
-      <sub>WebRTC · Socket.io · React · Node.js · MongoDB · JWT</sub>
-    </td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects"><strong>EXPLORE THE PROJECT SHOWCASE ↗</strong></a>
-</p>
+| Project | Focus | Explore |
+|---|---|---|
+| **DRISHTI — Anti-India Campaign Detection** | Multilingual NLP, threat detection, misinformation analysis and real-time dashboards | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
+| **Supermarket Billing AI POS** | Full-stack point-of-sale, barcode workflows, inventory forecasting and analytics | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
+| **LearnToEarn** | Blockchain education platform with Ethereum smart contracts and learning rewards | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
+| **Disease Prediction ML** | Healthcare risk-prediction pipelines and model evaluation | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
+| **IoT Smart Dustbin & Plant Health Monitor** | Arduino, ESP8266, sensors and cloud-connected monitoring | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
+| **Vakyam & Retired Mentor Platform** | WebRTC video conferencing, real-time communication and mentorship workflows | [Portfolio section](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/#projects) |
 
 ## 🏅 Certifications & credentials
 
@@ -144,81 +77,66 @@ The following projects are showcased in the portfolio website. Open the live sit
 - Cisco Networking Academy — Introduction to Cybersecurity
 - Oracle — Certified Foundations Associate
 - freeCodeCamp — Data Analysis with Python
-- IBM SkillsBuild — AI & Cloud (with Letter of Recommendation)
+- IBM SkillsBuild — AI & Cloud
 
-## 🏆 Highlights
+## 🏆 Awards & achievements
 
-- **1st Place** — Gravition Science Model Competition, IoT Smart Dustbin project
-- **Participant** — Edu Blockchain Hackathon, LearnToEarn platform
-- **Campus Ambassador** — IIT Kanpur Techkriti '24
-
----
+- **1st Place — Gravition Science Model Competition:** IoT Smart Dustbin with real-time waste-level monitoring.
+- **Edu Blockchain Hackathon:** Participant with the LearnToEarn educational rewards platform.
+- **IIT Kanpur Techkriti '24:** Campus Ambassador.
 
 ## 🖥️ Run locally
 
-This repository is a lightweight static website. There is no npm install or bundler step required.
-
-### 1. Clone the repository
+This repository is a lightweight static website. There is no npm build step.
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/Adarsh-Singh-Chauhan/adarsh-portfolio.git
+
+# 2. Open the project folder
 cd adarsh-portfolio
+
+# 3. Start a local static server
+python -m http.server 5500
 ```
 
-### 2. Start a local web server
+Open **http://localhost:5500** in your browser.
 
-Using Python:
-
-```bash
-python -m http.server 8080
-```
-
-Or using Node.js:
-
-```bash
-npx serve .
-```
-
-### 3. Open the website
-
-Visit [http://localhost:8080](http://localhost:8080).
-
-> **Note:** The Three.js library and Google Fonts are loaded from external CDNs, so an internet connection is needed for those resources.
+You can also open `index.html` directly, or use the VS Code Live Server extension. The page loads Google Fonts and Three.js from their CDN, so an internet connection is needed for the complete visual experience.
 
 ## 📁 Repository structure
 
 ```text
 adarsh-portfolio/
 ├── assets/
-│   └── portfolio-readme-banner.svg   # Animated README banner
-├── index.html                        # Portfolio markup, styles and scripts
-├── README.md                         # Project documentation
-└── LICENSE                           # MIT License
+│   └── adarsh-portfolio-banner.svg
+├── index.html
+├── README.md
+└── LICENSE
 ```
 
-## 🌐 Deployment
+## 🌐 Live website
 
-The live website is published with **GitHub Pages**:
+<p align="center">
+  <a href="https://adarsh-singh-chauhan.github.io/adarsh-portfolio/">
+    <img src="https://img.shields.io/badge/LAUNCH%20PORTFOLIO-Explore%20the%20experience-00D9F5?style=for-the-badge&logo=rocket&logoColor=041018" alt="Launch portfolio"/>
+  </a>
+</p>
 
-1. Open the repository's **Settings → Pages**.
-2. Choose **Deploy from a branch**.
-3. Select the `main` branch and `/ (root)` folder.
-4. Save the settings and use the published Pages URL.
-
-**Live URL:** [https://adarsh-singh-chauhan.github.io/adarsh-portfolio/](https://adarsh-singh-chauhan.github.io/adarsh-portfolio/)
+**Live URL:** https://adarsh-singh-chauhan.github.io/adarsh-portfolio/
 
 ## 🤝 Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/adarsh-singh-5189b9283/"><img src="https://img.shields.io/badge/LinkedIn-Adarsh_Singh_Chauhan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/adarsh-singh-5189b9283/"><img src="https://img.shields.io/badge/LinkedIn-Adarsh%20Singh-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://github.com/Adarsh-Singh-Chauhan"><img src="https://img.shields.io/badge/GitHub-Adarsh--Singh--Chauhan-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="mailto:adarshsinghchauhan28@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:adarshsinghchauhan28@gmail.com"><img src="https://img.shields.io/badge/Email-Get%20in%20touch-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
 <p align="center">
-  <strong>Build with curiosity. Engineer with purpose. Keep shipping. ⚡</strong>
+  <strong>Thanks for visiting — build useful things, keep learning, and ship with purpose. ✨</strong>
 </p>
 
 <p align="center">
-  <sub>Designed & built by Adarsh Singh Chauhan · Licensed under MIT</sub>
+  <sub>Designed & built by Adarsh Singh · SIRT Bhopal · RGPV</sub>
 </p>
